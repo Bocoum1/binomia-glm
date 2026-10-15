@@ -41,14 +41,7 @@ Le script exécute le travail original, vérifie les coefficients et les probabi
 - [Vérification et export des résultats](scripts/reproduce.R)
 - [Résultats numériques](results/comparison.csv)
 
-## Précisions méthodologiques
-
-Le code et les rapports universitaires sont conservés tels quels. Ils emploient le terme « Newton-Raphson », mais les mises à jour utilisent l'information de Fisher **attendue** : il s'agit du **scoring de Fisher**. Pour le logit canonique, les deux méthodes coïncident ici ; ce n'est généralement pas le cas pour probit et cloglog.
-
-Certains commentaires originaux inversent le sens des écarts aux faibles doses : au premier groupe, logit et probit **sous-estiment** la proportion observée. Le graphique et le CSV permettent de vérifier les écarts.
-
-Cette implémentation pédagogique n'est pas un solveur GLM général : elle n'inclut pas de traitement complet de la séparation, des matrices singulières ou des probabilités extrêmes. La vérification porte sur ce jeu précis. Aucune conclusion causale ou validation externe n'est revendiquée.
 
 ## Périmètre de publication
 
-Les rapports et le script original sont un travail en binôme. Le script de vérification et cette présentation sont une couche de reproductibilité ajoutée pour la publication. Les consignes, les CV et les documents privés ne sont pas inclus.
+Les rapports et le script original sont un travail en binôme. Le script de vérification et cette présentation sont une couche de reproductibilité ajoutée pour la publication.
