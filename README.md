@@ -31,7 +31,7 @@ R de base suffit, sans téléchargement de données ni paquet supplémentaire. D
 Rscript scripts/reproduce.R
 ```
 
-Le script exécute le travail original, vérifie les coefficients et les probabilités contre `glm`, puis produit la figure ci-dessus, les graphiques originaux et des tableaux CSV. Testé avec R 4.3.3. Les huit observations groupées sont présentes dans le script universitaire ; leur source bibliographique n'est pas précisée dans les fichiers fournis.
+Le script exécute le travail original, vérifie les coefficients et les probabilités contre `glm`, puis produit la figure ci-dessus, les graphiques originaux et des tableaux CSV. Testé avec R 4.3.3. Les huit observations groupées sont présentes dans le script universitaire ; leur source bibliographique n'est pas précisée dans le sujet du projet .
 
 ## Lire le travail
 
@@ -42,6 +42,6 @@ Le script exécute le travail original, vérifie les coefficients et les probabi
 - [Résultats numériques](results/comparison.csv)
 
 
-## Périmètre de publication
+## Précision de publication
 
 Les rapports et le script original sont un travail en binôme. Le script de vérification et cette présentation sont une couche de reproductibilité ajoutée pour la publication.
